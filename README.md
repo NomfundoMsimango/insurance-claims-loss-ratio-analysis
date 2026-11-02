@@ -11,10 +11,10 @@ Kaggle "Auto Insurance Claims Data" (insurance_claims.csv), 1,000 policies. No d
 
 ## Method
 1. **Excel:** checked for duplicates, added loss ratio, age band and claim size columns, built pivot tables.
-2. **MySQL:** wrote 5 queries (aggregation, CASE WHEN, HAVING with a subquery, CTE, RANK window function). See `sql/SQL claims queries.sql<img width="1317" height="731" alt="dashboard image" src="https://github.com/user-attachments/assets/cdb5a6a7-c4bf-4902-a1d1-6859aebc7215" />
-`.
+2. **MySQL:** wrote 5 queries (aggregation, CASE WHEN, HAVING with a subquery, CTE, RANK window function). See `sql/SQL claims queries.sql`
 3. **Validation:** SQL results were checked against Excel pivots and the Power BI dashboard. All matched.
-4. **Power BI:** one-page dashboard with KPI cards, three charts and state slicers. Loss ratio is a measure (total claims / total premium), not an average of row-level ratios.
+4. **Power BI:** one-page dashboard with KPI cards, three charts and state slicers. Loss ratio is a measure (total claims / total premium), not an average of row-level ratios.  `screenshots/`<img width="1317" height="731" alt="dashboard image" src="https://github.com/user-attachments/assets/9db20a31-e65a-4f3e-8fdd-fa93f2ee49dd" />
+
 
 ## Key findings
 - **Severity:** Major Damage (5,110%) and Total Loss (4,920%) are about 12x Trivial Damage (431%).
