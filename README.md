@@ -1,6 +1,6 @@
-[SQL claims queries.sql](https://github.com/user-attachments/files/34259385/SQL.claims.queries.sql)
 # Auto Insurance Claims: Loss Ratio Analysis
-
+`<img width="1317" height="731" alt="dashboard image" src="https://github.com/user-attachments/assets/9db20a31-e65a-4f3e-8fdd-fa93f2ee49dd" />`
+Data: “Auto Insurance Claims Data on Kaggle by Bunty Shah”
 ## Business question
 Which customer and incident segments cost the insurer the most relative to the premiums they pay, and where should it focus?
 
@@ -14,7 +14,7 @@ Kaggle "Auto Insurance Claims Data" (insurance_claims.csv), 1,000 policies. No d
 1. **Excel:** checked for duplicates, added loss ratio, age band and claim size columns, built pivot tables.
 2. **MySQL:** wrote 5 queries (aggregation, CASE WHEN, HAVING with a subquery, CTE, RANK window function). See `sql/SQL USE claims_db;
 3. **Validation:** SQL results were checked against Excel pivots and the Power BI dashboard. All matched.
-4. **Power BI:** one-page dashboard with KPI cards, three charts and state slicers. Loss ratio is a measure (total claims / total premium), not an average of row-level ratios.  `screenshots/`<img width="1317" height="731" alt="dashboard image" src="https://github.com/user-attachments/assets/9db20a31-e65a-4f3e-8fdd-fa93f2ee49dd" />
+4. **Power BI:** one-page dashboard with KPI cards, three charts and state slicers. Loss ratio is a measure (total claims / total premium), not an average of row-level ratios. 
 
 
 ## Key findings
