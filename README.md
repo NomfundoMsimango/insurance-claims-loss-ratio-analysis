@@ -1,6 +1,7 @@
 # Auto Insurance Claims: Loss Ratio Analysis
-`<img width="1317" height="731" alt="dashboard image" src="https://github.com/user-attachments/assets/9db20a31-e65a-4f3e-8fdd-fa93f2ee49dd" />`
+   <img width="1317" height="731" alt="dashboard image" src="https://github.com/user-attachments/assets/9db20a31-e65a-4f3e-8fdd-fa93f2ee49dd" />
 Data: “Auto Insurance Claims Data on Kaggle by Bunty Shah”
+
 ## Business question
 Which customer and incident segments cost the insurer the most relative to the premiums they pay, and where should it focus?
 
